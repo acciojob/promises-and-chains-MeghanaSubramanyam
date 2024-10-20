@@ -12,7 +12,7 @@ document.getElementById('btn').addEventListener('click',function(event){
 			else{
 				rej(`Oh sorry ${name}. You aren't old enough.`)
 			}
-		},4000)
+		})
 	})
 	.then(mes=>alert(mes));
 	.catch(mes=>alert(mes));
